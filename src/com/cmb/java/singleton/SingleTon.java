@@ -2,6 +2,7 @@ package com.cmb.java.singleton;
 
 /*
 饿汉式，
+单例模式，减少内存开销，提高线程运行效率
  */
 
 public class SingleTon {
