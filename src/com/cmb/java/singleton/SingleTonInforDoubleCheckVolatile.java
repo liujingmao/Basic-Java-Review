@@ -1,7 +1,7 @@
 package com.cmb.java.singleton;
 
 /**
- *
+ * 双重判断思想实现单例模式的设计
  */
 
 public class SingleTonInforDoubleCheckVolatile {
