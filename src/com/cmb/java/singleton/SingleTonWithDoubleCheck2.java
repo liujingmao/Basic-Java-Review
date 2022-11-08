@@ -2,7 +2,7 @@ package com.cmb.java.singleton;
 
 /**
  *  SingleTonWithDoubleCheck2
- *
+ *  学习设计模式了
  */
 
 public class SingleTonWithDoubleCheck2 {
