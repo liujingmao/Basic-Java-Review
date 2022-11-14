@@ -26,22 +26,21 @@ public class MethodTest {
 
     int[] arr1={1,3,4,5,6,12,45,32,21,100,14};
 
-    public int[] sourted(int[] a,int[] b) {
+    public int[] sourted(int[] a) {
 
-        for (int i=0;i<a.length;i++){
-            for (int j=0;j<a.length-1;j++){
-                if (a[i]>a[i+1]){
-                    int t = a[i];
-                    a[i] = a[i+1];
-                    a[i+1] = t;
-                }
+        int[] b = new int[a.length];
+        for (int i=0;i<a.length-1;i++){
+            if (a[i]>a[i+1]){
+                int t = a[i];
+                a[i] = a[i+1];
+                a[i+1] =t;
+            } else {
+                continue;
             }
+
+            System.out.println("arra:"+ a[i]);
         }
-
-
-
-
-        return b;
+        return a;
     }
 
     public double add(double a,double b){
@@ -63,9 +62,9 @@ public class MethodTest {
 
     public static void main(String[] args) {
 
-        MethodTest methodTest = new MethodTest();
+       MethodTest methodTest = new MethodTest();
 
-        double c = methodTest.add(1.2,3.4);
+        /*double c = methodTest.add(1.2,3.4);
 
         System.out.println(c);
 
@@ -74,5 +73,10 @@ public class MethodTest {
         int res = MethodTest.max2(1,3);
         System.out.println("d:"+d);
         System.out.println("res:"+res);
+        */
+
+
+        int[] arr1={1,3,4,5,6,12,45,32,21,100,14};
+        methodTest.sourted(arr1);
     }
 }
