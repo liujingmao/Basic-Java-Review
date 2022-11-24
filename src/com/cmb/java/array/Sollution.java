@@ -39,13 +39,11 @@ public class Sollution {
         }
 
         return rightsum;
-
-
     }
 
     public static void main(String[] args) {
 
-        int nums[] = {1,2,3,4,3,2,1};
+        int nums[] = {2,5};
 
 
 
@@ -102,13 +100,16 @@ public class Sollution {
 
         public int findMiddleIndex(int[] nums) {
 
-           int minIndex=0;
+           int minIndex=-1;
 
            for (int i = 0;i<nums.length;i++){
                int lefts = leftsum(nums,i);
                int rights = rightsum(nums,i);
-               if (lefts==rights){
-                   minIndex = i;
+               if (lefts!=rights){
+                   continue;
+               } else {
+                  minIndex=i;
+                  break;
                }
            }
 
