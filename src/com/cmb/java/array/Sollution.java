@@ -13,11 +13,9 @@ package com.cmb.java.array;
 public class Sollution {
 
     public static int leftsum(int[] nums,int index){
-
         if (index<0||index>nums.length){
             System.out.println("参数不合法");
         }
-
         int leftsum = 0;
         for (int i = 0;i<index;i++){
             leftsum+=nums[i];
@@ -26,18 +24,13 @@ public class Sollution {
     }
 
     public static int rightsum(int[] nums,int index){
-
         if (index<0||index>nums.length){
             System.out.println("参数不合法");
         }
-
         int rightsum =0;
         for (int j =index+1;j<nums.length;j++){
-
             rightsum+=nums[j];
-
         }
-
         return rightsum;
     }
 
@@ -71,33 +64,6 @@ public class Sollution {
         System.out.println("Mid index:"+ minindex);
 
     }
-
-       public int  sumArray(int[] nums){
-
-           int s = 0;
-           for (int i = 0;i<=nums.length-1;i++){
-               s += nums[i];
-           }
-           return s;
-       }
-
-       public int sumArray(int[] nums,int index){
-           if (index<0||index>nums.length){
-               System.out.println("参数不合法");
-           }
-
-           int leftsum = 0;
-
-           for (int i = 0;i<index;i++){
-
-               leftsum+=nums[i];
-
-           }
-
-           return leftsum;
-       }
-
-
         public int findMiddleIndex(int[] nums) {
 
            int minIndex=-1;
