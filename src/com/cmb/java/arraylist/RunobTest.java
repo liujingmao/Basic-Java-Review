@@ -3,11 +3,21 @@ package com.cmb.java.arraylist;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Compare ArrayList and Linked List
+ *
+ * ArrayList usage:
+ * 1. Frequently Read or get some element
+ * 2. Only add element or delete element at the end of List
+ *
+ * LinkedList usage
+ * 1. 你需要通过循环迭代来访问列表中的某些元素。
+ * 2. 需要频繁的在列表开头、中间、末尾等位置进行添加和删除元素操作
+ */
+
 public class RunobTest {
     public static void main(String[] args) {
-
         ArrayList<String> strlist = new ArrayList<>();
-
         strlist.add("a");
         strlist.add("b");
         strlist.add("TabBao");
