@@ -7,9 +7,9 @@ public class AbstractClassDemo {
          //
        // Employee employee = new Employee("test","hk",34) ;
 
-        Salary salary = new Salary("Mary","China",45,5678.45);
+       // Salary salary = new Salary("Mary","China",45,5678.45);
 
-        System.out.println("Name:"+salary.getName()+"=====Address:"+salary.getAddress()+"Number"+salary.getNumber()+salary.getSalary());
+       // System.out.println("Name:"+salary.getName()+"=====Address:"+salary.getAddress()+"Number"+salary.getNumber()+salary.getSalary());
 
 
 

@@ -1,6 +1,6 @@
 package com.cmb.java.abstractclass;
 
-public class Salary  extends Employee{
+public abstract class Salary  extends Employee{
 
     private double salary;
 
