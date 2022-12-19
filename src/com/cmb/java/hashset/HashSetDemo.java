@@ -11,7 +11,6 @@ import java.util.HashSet;
 
 public class HashSetDemo {
     public static void main(String[] args) {
-
         HashSet<String> strHashset = new HashSet<>();
         strHashset.add("Helloword");
         strHashset.add("A");
@@ -27,8 +26,5 @@ public class HashSetDemo {
         System.out.println(strHashset.contains("D"));
         strHashset.clear();
         System.out.println(strHashset);
-
-
-
     }
 }
