@@ -26,13 +26,11 @@ public class MaxnumTest {
 
         System.out.printf("%d,%d and %d Max Value: %d\n\n",3,4,5,maxinum(3,4,5));
 
-
         System.out.printf( "%.1f, %.1f 和 %.1f 中最大的数为 %.1f\n\n",
                 6.6, 8.8, 7.7, maxinum( 6.6, 8.8, 7.7 ) );
 
         System.out.printf( "%s, %s 和 %s 中最大的数为 %s\n","pear",
                 "apple", "orange", maxinum( "pear", "apple", "orange" ) );
-
 
     }
 
