@@ -6,13 +6,13 @@ import java.util.Hashtable;
 
 /**
  *
- *
- *
  */
 
 public class HashTableDemo {
 
     public static void main(String[] args) {
+
+        Thread thread = new Thread();
 
         // Create a hash map
         Hashtable balance = new Hashtable();
