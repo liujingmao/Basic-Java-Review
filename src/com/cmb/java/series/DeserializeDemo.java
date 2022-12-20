@@ -19,14 +19,11 @@ public class DeserializeDemo {
             e = (Empployee) in.readObject();
             in.close();
             fileIn.close();
-
-
         } catch (IOException i){
             i.printStackTrace();
             return;
         } catch( ClassNotFoundException c) {
             System.out.println("Employee class not found");
-
             c.printStackTrace();
             return;
         }
