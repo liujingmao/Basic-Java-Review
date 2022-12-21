@@ -12,3 +12,8 @@
 #### 5. Ranger关闭权限评估
 #### 6. 学习了Java，写了几个代码程序
 
+
+### 20201221 日报
+#### 1. 巡检集群，告警处理；
+#### 2. Kafka-->FlinkSQL-->Hudi Table---Hive Beeline和Spark-shell 查询验证
+
