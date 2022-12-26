@@ -40,6 +40,7 @@
 #### 1. 测试环境集群交付
 #### 2. RHCSA 练习，满分
 #### 3. Ansible 练习RHCE, 满分
+#### 4. Flink 源码走读Dispatcher启动
 
 
 
