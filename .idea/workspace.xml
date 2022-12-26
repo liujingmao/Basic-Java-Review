@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c43be34-e5d7-4f53-89c2-31a15125bf8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cmb/java/thread/CallableThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmb/java/thread/CallableThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmb/java/thread/CallableThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

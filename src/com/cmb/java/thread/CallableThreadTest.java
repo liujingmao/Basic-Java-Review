@@ -3,7 +3,6 @@ package com.cmb.java.thread;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
-
 /**
  * 1. 创建 Callable 接口的实现类，并实现 call() 方法，该 call() 方法将作为线程执行体，并且有返回值。
  *
@@ -13,7 +12,6 @@ import java.util.concurrent.FutureTask;
  *
  * 4. 调用 FutureTask 对象的 get() 方法来获得子线程执行结束后的返回值。
  */
-
 public class CallableThreadTest implements Callable<Integer> {
 
     public static void main(String[] args) {
@@ -37,7 +35,6 @@ public class CallableThreadTest implements Callable<Integer> {
             e.printStackTrace();
         }
     }
-
     /**
      * Computes a result, or throws an exception if unable to do so.
      * @return computed result
