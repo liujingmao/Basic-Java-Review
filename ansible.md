@@ -2,7 +2,8 @@
 #### 1. 2022-12-26 复习第二章节，Ansible安装和配置文件
 ##### 1.1 Static and Dynamic Inventory files
 ##### 1.2 How To Write static Inventory files
-##### 1.3 
+##### 1.3 Ansible Adhoc
+
 #### 2. 2022-12-27 Playbook
 #### 3. 2022-12-28 Ansible 变量 
 #### 4. 2022-12-29 Task 控制
