@@ -22,8 +22,5 @@ public class App {
 
         runnable1.run();
 
-
-
-
     }
 }
