@@ -26,12 +26,18 @@ public class LambdaSumTest {
         resultStream.forEach(System.out::println);
     }
 
+    /**
+     * Consumer<T> （消费型）: 接收一个输入参数，并且无返回操作
+     */
     private void testComsumer(){
-        Consumer<String> consumer=String::toUpperCase;
+        Consumer<String> consumer=System.out::println;
         Stream<String> stream = Stream.of("aaa","bbb","c");
         stream.forEach(consumer);
     }
 
+    /*
+    Predicate<T> （判断型）: 接收一个输入参数，并且返回布尔值结果
+     */
     private void testPredicate(){
         Predicate<Integer> predicate = a->a>18;
         UserInfo userInfo = new UserInfo(2L,"BBBB",27);
@@ -51,14 +57,29 @@ public class LambdaSumTest {
         }
     }
 
+    private void testSupplier2(){
+        Supplier<String> supplier = ()->String.valueOf("AAAA");
+        System.out.println(supplier.get());
+    }
+
+    private void testSupplier3(){
+        Supplier<UserInfo> supplier=()->new UserInfo(4L,"DDD",34);
+        System.out.println(supplier.get());
+    }
+
+
+
     public static void main(String[] args) {
         LambdaSumTest lambdaSumTest = new LambdaSumTest();
         lambdaSumTest.testFunction();
         System.out.println("Parting Line*******");
-       // lambdaSumTest.testComsumer();
+        lambdaSumTest.testComsumer();
+        System.out.println("******Parting Line********");
         lambdaSumTest.testPredicate();
         UserInfo userInfo = new UserInfo(3L,"CCCC",23);
        // lambdaSumTest.saveDb(()->);
+        lambdaSumTest.testSupplier2();
+        lambdaSumTest.testSupplier3();
 
     }
 }
