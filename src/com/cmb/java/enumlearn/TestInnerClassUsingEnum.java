@@ -23,9 +23,7 @@ public class TestInnerClassUsingEnum {
         for (Derection derection1: Derection.values()){
             System.out.println(derection1);
         }
-
         switch (derection) {
-
             case EAST:
                 System.out.println("东方");
                 break;
@@ -39,6 +37,5 @@ public class TestInnerClassUsingEnum {
                 System.out.println("南方");
                 break;
         }
-
     }
 }
