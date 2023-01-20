@@ -35,9 +35,5 @@ public class ZoneTest2 {
                 outputFormat.withZone(timeZoneJST).format(date));
 
 
-
-
-
-
     }
 }
