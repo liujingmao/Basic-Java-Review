@@ -24,9 +24,7 @@ public class LambdaBasicInterfaceTest {
     }
 
     public void testConsumer2(){
-
         con2("Miss Lie",x-> System.out.println(x));
-
     }
 
     public void con2(String str,Consumer<String> consumer){
@@ -62,8 +60,6 @@ public class LambdaBasicInterfaceTest {
         String s2 = st("  a  bc   ",s->s.trim());
         System.out.println(s2);
     }
-
-
     public void testPredict(){
         List<Integer> list = new ArrayList<>();
         list.add(10);
@@ -76,8 +72,6 @@ public class LambdaBasicInterfaceTest {
             System.out.println(i);
         }
     }
-
-
     public List<Integer> fInt(List<Integer> li, Predicate<Integer> p){
         List<Integer> l = new ArrayList<>();
         for (Integer integer:li){
@@ -87,7 +81,6 @@ public class LambdaBasicInterfaceTest {
         }
         return l;
     }
-
     public static void main(String[] args) {
         LambdaBasicInterfaceTest test = new LambdaBasicInterfaceTest();
         test.testConsumer();

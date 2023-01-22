@@ -55,6 +55,5 @@ public class DateDemoTest4 {
         Instant it4 = l4.atStartOfDay().atZone(ZoneId.systemDefault()).toInstant();
         Date d4 = Date.from(it);
 
-
     }
 }
