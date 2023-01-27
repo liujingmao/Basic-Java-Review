@@ -61,7 +61,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HelleWorldTest">
+  <component name="RunManager" selected="Application.SquareNum">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cmb.java.App" />
       <module name="Learn" />
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZoneTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmb.java.date.ZoneTest2" />
+    <configuration name="SquareNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmb.java.jdoc.SquareNum" />
       <module name="Learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmb.java.date.*" />
+          <option name="PATTERN" value="com.cmb.java.jdoc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +143,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.GreetingClient" />
+      <item itemvalue="Application.SquareNum" />
       <item itemvalue="Application.HelleWorldTest" />
       <item itemvalue="Application.App49" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.LambdaBasicInterfaceTest" />
-      <item itemvalue="Application.ZoneTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareNum" />
         <item itemvalue="Application.HelleWorldTest" />
         <item itemvalue="Application.App49" />
         <item itemvalue="Application.LambdaBasicInterfaceTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.ZoneTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +170,9 @@
       <workItem from="1673960022989" duration="5742000" />
       <workItem from="1674213846410" duration="3885000" />
       <workItem from="1674376613804" duration="5417000" />
+      <workItem from="1674555936321" duration="440000" />
+      <workItem from="1674641013619" duration="1036000" />
+      <workItem from="1674740137060" duration="810000" />
     </task>
     <servers />
   </component>
