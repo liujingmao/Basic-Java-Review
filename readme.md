@@ -122,6 +122,12 @@
 #### 2. 完整练习RHCSA和RHCE，有点小错；
 #### 3. Hudi基础知识学习(表类型，Timeline基础知识)
 
+### 20230203 学习和工作日报
+#### 1. 跟进生产环境FlinkServer消费Kafka数据写到Hudi发生Flink背压原因分析;
+#### 2. 测试环境配置互信,解决HBase双写问题和安装客户端;
+#### 3. RHCSA练习一次满分,RHCE没有练习;
+#### 4. Hudi基础知识学习(Compaction触发机制和umask学习);
+
 
 
 
