@@ -29,7 +29,5 @@ public class StreamDemoApp62 {
         Stream<User> userStream1 = Stream.of(user);
         long count = userStream1.filter(x -> x.getAge() > 20).count();
         System.out.println(count);
-
-
     }
 }
