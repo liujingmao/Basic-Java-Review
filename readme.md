@@ -236,12 +236,11 @@
 
 ### 20230314 学习和工作日报
 #### 1. 项目总结:
-##### 1.1: 金融风控制项目(Flink+Kafka+Hudi+Hive+Spark)
-##### 1.2: Spark+ClickHouse实战企业级数据仓库
+##### 1.1: 金融风控项目(Flink+Kafka+Hudi+Hive+Spark)
+##### 1.2: 安全风控数据仓库项目(Spark+Clickhouse)
 ##### 1.3: Docker环境下的前后端分离项目部署与运维
-##### 1.4: Spark+ES+ClickHouse 构建DMP用户画像
-##### 1.5: Spark进阶大数据离线与实时项目实战
-##### 1.6: clickhouse迁移项目，迁移脚本的设计
+##### 1.4: Spark+ES+ClickHouse构建DMP用户画像
+##### 1.5: clickhouse迁移项目，迁移脚本的设计
 
 
 
