@@ -241,6 +241,9 @@
 ##### 1.3: Docker环境下的前后端分离项目部署与运维
 ##### 1.4: Spark+ES+ClickHouse构建DMP用户画像
 ##### 1.5: clickhouse迁移项目，迁移脚本的设计
+#### 2. 处理平台组生产环境MRS820版本集群,创建租户异常的问题;
+#### 3. 测试环境MRS820集群FlinkServer消费Kafka数据写到Hudi表,Hudi客户端和Hive客户端核对数据量无误;计划下个阶段开发多线程生产数据到Kafka
+#### 4. 协助处理解决Hetu自定义UDF异常报错
 
 
 
