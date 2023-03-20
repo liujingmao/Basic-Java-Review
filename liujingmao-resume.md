@@ -1,0 +1,5 @@
+在Hadoop领域参与具体运维工作三年及以上，集群规模大于200台优先，多租户集群优先；
+对HDFS、HBASE、YARN等模块的底层原理掌握，熟练掌握HDFS读写流程、HBASE读写流程、YARN资源分配过程等，理解各模块的高可用机制；
+有过实际HDFS、HBASE、HIVE等任务性能调优经验，对HIVE执行计划、HIVE权限隔离机制、HDFS-RBF联邦机制、HBASE-Bulkload等特性及功能有一定了解；
+熟练linux系统环境，有一定SQL开发能力，对python/shell/java至少一门语言有两年以上使用经验，能独立进行运维脚本开发；
+对Spark、flink等流处理计算引擎有过相关维护经验优先；
