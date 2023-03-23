@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class App49 {
 
-    public
+
 
     public static void main(String[] args) {
 
