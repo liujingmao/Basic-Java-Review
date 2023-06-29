@@ -5,8 +5,6 @@ import java.util.stream.Collectors;
 
 public class App49 {
 
-
-
     public static void main(String[] args) {
 
         List<UserInfo> iList = new ArrayList<>();
