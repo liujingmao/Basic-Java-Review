@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c43be34-e5d7-4f53-89c2-31a15125bf8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cmb/java/hash/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmb/java/Sollution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmb/java/Sollutionv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmb/spring/JavaResourceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmb/java/App49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmb/java/App49.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -64,20 +73,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListRemoveDemo">
-    <configuration name="App49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmb.java.App49" />
-      <module name="Learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmb.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JavaResourceDemo">
     <configuration name="ArrayListRemoveDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cmb.java.arraylist.ArrayListRemoveDemo" />
       <module name="Learn" />
@@ -105,8 +101,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelleWorldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmb.java.HelleWorldTest" />
+    <configuration name="JavaResourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmb.spring.JavaResourceDemo" />
+      <module name="Learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmb.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sollution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmb.java.Sollution" />
       <module name="Learn" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmb.java.jdoc.SquareNum" />
+    <configuration name="Sollutionv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmb.java.Sollutionv2" />
       <module name="Learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmb.java.jdoc.*" />
+          <option name="PATTERN" value="com.cmb.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +155,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.GreetingClient" />
+      <item itemvalue="Application.JavaResourceDemo" />
+      <item itemvalue="Application.Sollutionv2" />
+      <item itemvalue="Application.Sollution" />
       <item itemvalue="Application.ArrayListRemoveDemo" />
       <item itemvalue="Application.StreamDemoApp62" />
-      <item itemvalue="Application.SquareNum" />
-      <item itemvalue="Application.HelleWorldTest" />
-      <item itemvalue="Application.App49" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaResourceDemo" />
+        <item itemvalue="Application.Sollutionv2" />
+        <item itemvalue="Application.Sollution" />
         <item itemvalue="Application.ArrayListRemoveDemo" />
         <item itemvalue="Application.StreamDemoApp62" />
-        <item itemvalue="Application.SquareNum" />
-        <item itemvalue="Application.HelleWorldTest" />
-        <item itemvalue="Application.App49" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +207,9 @@
       <workItem from="1679271140723" duration="355000" />
       <workItem from="1679403953955" duration="3163000" />
       <workItem from="1682555076882" duration="1949000" />
-      <workItem from="1687913654570" duration="408000" />
+      <workItem from="1687913654570" duration="1620000" />
+      <workItem from="1691381253642" duration="2186000" />
+      <workItem from="1692171188429" duration="4168000" />
     </task>
     <servers />
   </component>
